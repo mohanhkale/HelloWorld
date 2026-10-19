@@ -13,10 +13,10 @@ logger = logging.getLogger("KotakNeoWebSocket")
 
 # 1. Credentials Configuration
 CONFIG = {
-    "CONSUMER_KEY": os.getenv("KOTAK_CONSUMER_KEY", "your_consumer_key"),
-    "CONSUMER_SECRET": os.getenv("KOTAK_CONSUMER_SECRET", "your_consumer_secret"),
-    "MOBILE_NUMBER": os.getenv("KOTAK_MOBILE", "+919876543210"),
-    "MPIN": os.getenv("KOTAK_MPIN", "123456"),
+    "CONSUMER_KEY": os.getenv("KOTAK_CONSUMER_KEY", "f8c04662-3dea-4086-bedb-4d29d5070065"),
+    "CONSUMER_SECRET": os.getenv("KOTAK_CONSUMER_SECRET", "XZE3Q"),
+    "MOBILE_NUMBER": os.getenv("KOTAK_MOBILE", "+919356837843"),
+    "MPIN": os.getenv("KOTAK_MPIN", "540906"),
     "ENVIRONMENT": "prod"
 }
 
